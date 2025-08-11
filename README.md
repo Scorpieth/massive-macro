@@ -1,4 +1,4 @@
-# Mega Macro (a World of Warcraft AddOn)
+# Massive Macro (a World of Warcraft AddOn) (THIS IS A CONTINUATION OF MEGA MACRO. BIG THANKS TO SELLERIO AND OTHER CONTTRIBUTORS FOR THEIR EFFORTS)
 
 ![Screenshot 1](https://raw.githubusercontent.com/Sellorio/mega-macro/master/Screenshot1.png)
 
