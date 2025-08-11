@@ -1,0 +1,1 @@
+rmdir /s /q "E:\Addon Development\published\ScorporationMacros"

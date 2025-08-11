@@ -1,10 +1,10 @@
-.vscode\
+﻿.vscode\
 macro-backup\
 reference-code\
 scripts\
 .publishignore
 .publishignore.dev
-ScorporationMacrosDevelopment.toc
+ScorporationMacros.toc
 globals.lua
 README.md
 .png

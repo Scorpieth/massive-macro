@@ -87,7 +87,7 @@
 				</Texture>
 			</Layer>
 			<Layer level="BORDER">
-				<FontString inherits="GameFontNormal" text="Mega Macro - Create Macros">
+				<FontString inherits="GameFontNormal" text="Scorporation Macros">
 					<Anchors>
 						<Anchor point="TOP" relativeTo="MegaMacro_Frame" x="0" y="-5"/>
 					</Anchors>
@@ -134,15 +134,6 @@
 			</Layer>
 		</Layers>
 		<Frames>
-			<Button name="MegaMacro_ToggleWindowModeButton" frameStrata="HIGH" inherits="UIPanelButtonTemplate" text="{lock/unlock}">
-				<Size x="80" y="22"/>
-				<Anchors>
-					<Anchor point="TOPRIGHT" relativeTo="MegaMacro_Frame" relativePoint="TOPRIGHT" x="-21" y="1"/>
-				</Anchors>
-				<Scripts>
-					<OnClick>MegaMacro_ToggleWindowModeButton_OnClick();</OnClick>
-				</Scripts>
-			</Button>
 			<CheckButton name="MegaMacro_FrameSelectedMacroButton" frameStrata="HIGH" inherits="MegaMacro_ButtonTemplate" id="0">
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="MegaMacro_FrameSelectedMacroBackground" x="14" y="-14"/>
@@ -231,6 +222,18 @@
 				</Anchors>
 				<Scripts>
 					<OnClick>MegaMacro_EditButton_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="MegaMacro_DeleteButton" inherits="UIPanelButtonTemplate" text="DELETE">
+				<Size x="80" y="22"/>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="MegaMacro_FrameSelectedMacroBackground" x="105" y="-32"/>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
+						StaticPopup_Show("CONFIRM_DELETE_SELECTED_MEGA_MACRO");
+					</OnClick>
 				</Scripts>
 			</Button>
 			<ScrollFrame name="MegaMacro_FrameScrollFrame" inherits="UIPanelScrollFrameTemplate">
@@ -431,16 +434,13 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="MegaMacro_DeleteButton" inherits="UIPanelButtonTemplate" text="DELETE">
+			<Button name="MegaMacro_ToggleWindowModeButton" frameStrata="HIGH" inherits="UIPanelButtonTemplate" text="{lock/unlock}">
 				<Size x="80" y="22"/>
 				<Anchors>
-					<Anchor point="BOTTOMLEFT" relativeTo="MegaMacro_Frame" x="4" y="4"/>
+					<Anchor point="BOTTOMRIGHT" x="-87" y="4"/>
 				</Anchors>
 				<Scripts>
-					<OnClick>
-						PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
-						StaticPopup_Show("CONFIRM_DELETE_SELECTED_MEGA_MACRO");
-					</OnClick>
+					<OnClick>MegaMacro_ToggleWindowModeButton_OnClick();</OnClick>
 				</Scripts>
 			</Button>
 			<Button name="MegaMacro_ExitButton" inherits="UIPanelButtonTemplate" text="EXIT">

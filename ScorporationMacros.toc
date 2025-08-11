@@ -1,6 +1,6 @@
 ## Interface: 110000
-## Title: Mega Macro
-## Author: Sellorio
+## Title: Massive Macro
+## Author: Scorpie
 ## Version: 1.0.0
 ## OptionalDeps: ElvUI
 

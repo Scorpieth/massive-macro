@@ -1,4 +1,4 @@
-CALL .\depublish.bat
-mkdir "C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns\MegaMacro"
-xcopy /e /i /exclude:..\.publishignore .. "C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns\MegaMacro"
+CALL ./cleanUpPublished.bat
+mkdir "E:\Addon Development\ScorporationMacros"
+xcopy /e /i /exclude:..\.publishignore .. "E:\Addon Development\published\ScorporationMacros"
 PAUSE
