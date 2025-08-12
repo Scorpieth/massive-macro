@@ -26,3 +26,5 @@ src/engine/mega-macro-parser.lua
 src/windows/mega-macro.window.xml
 
 src/main.lua
+
+src/windows/scorporation-main-window.lua

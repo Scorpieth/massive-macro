@@ -1,0 +1,29 @@
+{
+   "Lua.diagnostics.globals": [
+      "CooldownFrame_Set",
+      "ActionButton_HideOverlayGlow",
+      "ClearChargeCooldown",
+      "ActionButton_ShowOverlayGlow",
+      "RANGE_INDICATOR",
+      "COOLDOWN_TYPE_LOSS_OF_CONTROL",
+      "COOLDOWN_TYPE_NORMAL",
+      "StartChargeCooldown",
+      "RED_FONT_COLOR",
+      "LIGHTGRAY_FONT_COLOR",
+      "UISpecialFrames",
+      "FauxScrollFrame_Update",
+      "BuildIconArray",
+      "FauxScrollFrame_GetOffset",
+      "StaticPopup_Show",
+      "SpellBook_GetSpellBookSlot",
+      "MAX_SPELLS",
+      "SpellBookFrame",
+      "MacroFrame",
+      "BACK",
+      "BACKDROP_ACHIEVEMENTS_0_64",
+      "BACKDROP_DIALOG_32_32",
+      "BACKDROP_DARK_DIALOG_32_32",
+      "ACHIEVEMENT",
+      "BACKDROP_DIALOG_EDGE_32"
+   ]
+}
